@@ -364,17 +364,7 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* ── Footer ── */}
-      <footer style={{ padding: "32px 0", borderTop: "1px solid var(--border)", textAlign: "center" }}>
-        <div className="container">
-          <p style={{ fontSize: 13, color: "var(--text-3)" }}>
-            Finance Dashboard — Backend: Node.js + Express + MongoDB &nbsp;|&nbsp; Frontend: React + Bootstrap + Recharts
-          </p>
-          <p style={{ fontSize: 12, color: "var(--text-3)", marginTop: 6 }}>
-            API: <code style={{ fontFamily: "monospace", color: "var(--accent)" }}>https://finances-dashboard.onrender.com</code>
-          </p>
-        </div>
-      </footer>
+ 
 
       {/* ── Auth Modal ── */}
       {showAuth && (
